@@ -22,6 +22,7 @@
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -45,6 +46,30 @@ Frontend
 - [Storybook](https://storybook.js.org/)
 - [Styled components](https://styled-components.com/)
 - [Typescript](https://www.typescriptlang.org/)
+
+## :information_source: How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/) or higher + [Yarn v1.13](https://yarnpkg.com/) or higher installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/melquisedecfelipe/landing-page
+
+# Go into the repository
+$ cd landing-page
+
+# Go into the backend and install dependencies
+$ cd backend && yarn
+
+# Run backend
+$ yarn develop
+
+# Go into the frontend and install dependencies
+$ cd frontend && yarn
+
+# Run frontend
+$ yarn dev
+```
 
 ## :memo: License
 
